@@ -17,6 +17,6 @@ public class Jansada3Test {
     public void factorial2Test()
     {
         Jansada3 username = new Jansada3();
-        assertEquals(username.factorial(5), 120);
+        assertEquals(username.factorial2(5), 120);
     }
 }
