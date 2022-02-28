@@ -18,4 +18,18 @@ public class Jansada3 {
             return n*factorial(n-1);
         }
     }
+
+    public long factorial2(int n)
+    {
+        int result = 1;
+        int i = 1;
+
+        while(i <= n)
+        {
+            result = result * i;
+            i++;
+        }
+
+        return result;
+    }
 }
