@@ -12,4 +12,11 @@ public class Jansada3Test {
         Jansada3 username = new Jansada3();
         assertEquals(username.factorial(5), 120);
     }
+
+    @Test
+    public void factorial2Test()
+    {
+        Jansada3 username = new Jansada3();
+        assertEquals(username.factorial(5), 120);
+    }
 }
